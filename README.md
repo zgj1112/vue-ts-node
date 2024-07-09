@@ -1,5 +1,12 @@
 # Vue 3 + TypeScript + Vite
+整合了前端+node 可以调用一键启动微服务 相当于纯前端实现了前后端的功能
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+核心代码 在packgejson里面的
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+"start-dev": "concurrently \"npm run dev\" \"node app.js\""
+
+启动方式
+
+npm install
+
+npm run start-dev 
