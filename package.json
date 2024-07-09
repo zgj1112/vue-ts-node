@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "express": "^4.19.2",
+    "pinia": "^2.1.7",
     "vue": "^3.4.29"
   },
   "devDependencies": {
+    "@types/node": "^20.14.10",
     "@vitejs/plugin-vue": "^5.0.5",
     "typescript": "^5.2.2",
     "vite": "^5.3.1",
