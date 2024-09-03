@@ -1,25 +1,23 @@
 <template>
   <div class="home">
-    <el-row >
-      <!-- <el-col :span="24"> <h1>欢迎来到我的世界</h1></el-col> -->
-    </el-row>
-
     <el-row>
-      <el-col :span="8"
-        ><div class="" />
+      <el-col :span="4">
         <router-link to="/home">
-          <el-button>我是 ElButton</el-button>
-        </router-link>
+          <el-button type="primary">store</el-button>
+        </router-link>\
+        
       </el-col>
-      <el-col :span="16">
-        <firstVue />
+      <el-col :span="4">
+        <router-link to="/home">
+          <el-button type="primary">store</el-button>
+        </router-link>
       </el-col>
     </el-row>
   </div>
 </template>
 
 <script lang="ts" setup>
-import firstVue from "./first.vue";
+// import firstVue from "./first.vue";
 
 </script>
 
@@ -27,6 +25,10 @@ import firstVue from "./first.vue";
 .home {
   width: 100%;
   height: 100%;
+  /* margin: 20px; */
+  padding: 20px;
+  box-sizing: border-box;
+  background: url('src/assets/bcc.jpg') no-repeat center center / cover fixed;
   /* border: 1px solid red; */
 }
 

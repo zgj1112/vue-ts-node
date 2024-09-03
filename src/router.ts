@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
-import Home from 'src/components/first.vue';  // 根据你的实际项目路径修改
+import Home from 'src/components/store.vue';  // 根据你的实际项目路径修改
 import First from './components/HelloWorld.vue'
 const routes: Array<RouteRecordRaw> = [
   {
