@@ -3,10 +3,10 @@
 
 核心代码 在packgejson里面的
 
-"start-dev": "concurrently \"npm run dev\" \"node app.js\""
+"start": "concurrently \"npm run dev\" \"node app.js\""
 
 启动方式
 
 npm install
-
-npm run start-dev 
+npm install concurrently --save-dev
+npm run start
